@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  text-align: center;
+}
+
+div {
+  height: 100%;
+  margin-top: 6vh;
+  padding: 1vh;
+  line-height: 3.5rem;
+  scroll-snap-type: y mandatory;
+  object-fit: cover;
+}
+
+div h1 {
+  font-size: 3.5rem;
+  align-content: center;
+  text-decoration: underline;
+  line-height: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+  text-decoration: underline;
+}
+
+h3 {
+  padding: 1vh;
+  margin: 1vh;
+  font-size: 2rem;
+  text-decoration: underline dotted;
+  float: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h4 {
+  font-size: 2.2rem;
+  text-decoration: underline;
+}
+
+p {
+  font-size: 1.5rem;
+  padding: 0.1vh;
+  margin: 0.25vh;
+  line-height: 2.5rem;
+}
+
+ol {
+  margin: 0.5vh;
+  padding: 0.5vh;
+  font-size: 1.85rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  list-style-position: inside;
+  line-height: 3rem;
+}
+
+img {
+  margin: 5%;
+  height: 40%;
+  width: 40%;
+  align-content: center;
+}
+
+section {
+  height: 90vh;
+  margin: 1vh;
+  padding: 1vh;
+}
+
+#usb {
+  object-fit: scale-down;
+}
